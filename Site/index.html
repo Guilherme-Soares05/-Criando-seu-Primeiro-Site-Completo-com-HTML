@@ -35,8 +35,53 @@
                 <label for="p1d">Java</label>
               </form>   
             </section>
+            <!--Pergunta 2: texto-->
+            <!-- Nessa section a pergunta será de texto e nesse caso será feito o uso normal do input onde o tipo será text-->
+            <!-- O id será apenas p2 porque não tem alternativas como na pergunta 1-->
+            <!--O name vai fazer referência para a pegunta então nesse caso será pergunta2-->
+            <!--Por fim achei legal colocar um placeholder para indicar dentro da caixa de texto que a resposta deve se digitada-->
             <section>
-                <h2> Pergunta 2:</h2>
+                <h2> Pergunta 2: Na URL https://google.com o trecho "google.com" é o (a) _____</h2>
+                <form>
+                  <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta...">
+                </form>
+            </section>
+            <!--Pergunta 3: senha-->
+            <!-- No navegador não vai mostrar a resposta e sim asterisitcos por segurança -->
+            <section>
+              <h2>Pergunta 3: Escreva um exemplo de senha forte:</h2>
+              <form>
+                <input type="password" id="p3" name="pergunta3" placeholder="Digite uma senha...">
+              </form>
+            </section>
+            <!--Pergunta 4: data-->
+            <!-- Pra adicionar o campo de data é só colocar no type o date assim ele vai disponibilizar a seleção de data -->
+            <section>
+              <h2>Pergunta 4: Em que ano o HTML lançou a sua primeira versão? </h2>
+              <form>
+                <input type="date" id="p4" name="pergunta4">
+              </form>
+            </section>
+            <!--Pergunta 5: checbox-->
+            <!-- Nesse caso decidi por 5 opções com o checbox-->
+            <!-- O id vai ser respectivo as alternativas nesse caso a, b, c, d e e -->
+            <!-- O name vai ser igual a todas as outras perguntas -->
+            <!-- E o valor vai ser a resposta que ele representa --> 
+            <!-- Para aparecer na tela é necessário o label com o for igual ao id da resposta -->
+            <section>
+              <h2>Pergunta 5: Quais dessas tecnologias são consideradas linguagens de programação? </h2>
+              <form>
+                <input type="checkbox" id="p5a" name="pergunta5" value="JavaScript">
+                <label for="p5a">JavaScript</label> <br> <br>
+                <input type="checkbox" id="p5b" name="pergunta5" value="Ruby">
+                <label for="p5b">Ruby</label> <br> <br>
+                <input type="checkbox" id="p5c" name="pergunta5" value="Docker">
+                <label for="p5c">Docker</label> <br> <br>
+                <input type="checkbox" id="p5d" name="pergunta5" value="HTML">
+                <label for="p5d">HTML</label> <br> <br>
+                <input type="checkbox" id="p5e" name="pergunta5" value="CSS">
+                <label for="p5e">CSS</label>
+              </form>
             </section>
         </main>
         <footer>
